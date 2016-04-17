@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
-
+//(a+b)(2[x])
 char array[100];
 int tos = -1;
 

@@ -22,7 +22,7 @@ class CounterTask implements Runnable{
 
   public void run(){
     for(int i = 0;i<10;i++){
-      System.out.println("Increment : " + Thread.currentThread().getId());
+      System.out.println("Increment : " + Thread.currentThread());
       counter.increment();
     }
   }
